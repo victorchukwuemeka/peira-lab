@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peira Lab — a research laboratory that ships products</title>
+  <meta name="description" content="Peira Lab researches hard problems — distributed networks, privacy-first systems, shop-floor operations — and ships working products. Every build is ported to what the problem and solution demand." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo"><span class="mark">PEIRA</span><span class="dim">·</span>LAB</div>
+    <nav class="nav">
+      <a href="#products">Products</a>
+      <a href="#research">Research</a>
+      <a href="#mission">Mission</a>
+      <a href="#contact" class="cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Research Laboratory — est. Nigeria</p>
+      <h1>A lab that <span class="accent">ships</span>.</h1>
+      <p class="sub">
+        We research hard problems — distributed networks, privacy-first systems,
+        shop-floor operations — and ship the results as real, working products.
+        Not decks. Not prototypes. <strong>Products.</strong>
+        No fixed stack, no dogma — every build is ported to
+        <strong>what the problem and the solution demand.</strong>
+      </p>
+      <div class="hero-actions">
+        <a href="#products" class="btn primary">Inspect products</a>
+        <a href="#research" class="btn ghost">Research notes</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>09</b><span>products shipped or in-lab</span></div>
+        <div class="stat"><b>04</b><span>languages, chosen per build</span></div>
+        <div class="stat"><b>one</b><span>rule — port to the problem</span></div>
+        <div class="stat"><b>30+</b><span>business workflows mapped</span></div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <p class="sec-label">/ catalog</p>
+      <h2>Products in the lab</h2>
+      <p class="lede">Every entry below is a real system — compiled, run, or running in the field.</p>
+
+      <div class="manifest">
+        <div class="item" data-status="protocol">
+          <div class="item-id">SG-32</div>
+          <div class="item-body">
+            <h3>SG32 — Solana Light Node</h3>
+            <p>Shred recovery, FEC reconstruction and trustless Merkle proofs. One binary, no sidecars. Runs against devnet or mainnet.</p>
+          </div>
+          <div class="item-tags"><span class="tag t-green">shipped</span><span class="tag">rust</span><span class="tag">blockchain</span></div>
+        </div>
+
+        <div class="item" data-status="protocol">
+          <div class="item-id">IK-01</div>
+          <div class="item-body">
+            <h3>iktr — Privacy-First OS</h3>
+            <p>An operating system built from scratch in Rust where privacy is architecture, not a feature. Every syscall and byte of memory is designed to ask one question: does this leak data?</p>
+          </div>
+          <div class="item-tags"><span class="tag t-green">in-lab</span><span class="tag">rust</span><span class="tag">systems</span></div>
+        </div>
+
+        <div class="item" data-status="protocol">
+          <div class="item-id">SO-01</div>
+          <div class="item-body">
+            <h3>SolNet — Decentralized Mobile Data</h3>
+            <p>A decentralized mobile data network for Nigeria. Shops, kiosks and hostels become last-mile infrastructure where big ISPs can't afford to build.</p>
+          </div>
+          <div class="item-tags"><span class="tag t-green">research</span><span class="tag">network</span><span class="tag">protocols</span></div>
+        </div>
+
+        <div class="item" data-status="app">
+          <div class="item-id">PH-01</div>
+          <div class="item-body">
+            <h3>Pharmacy OS</h3>
+            <p>Offline inventory for pharmacies. Scan a drug pack, parse the GS1 barcode, track stock, get expiry alerts. No internet required, nothing leaves the device.</p>
+          </div>
+          <div class="item-tags"><span class="tag t-green">shipped</span><span class="tag">rust</span><span class="tag">offline-first</span></div>
+        </div>
+
+        <div class="item" data-status="hardware">
+          <div class="item-id">GS-01</div>
+          <div class="item-body">
+            <h3>Gas Monitor</h3>
+            <p>A small offline-first device that weighs your cooking-gas cylinder and warns before it runs dry. Optional phone alerts and automatic refill ordering.</p>
+          </div>
+          <div class="item-tags"><span class="tag t-green">in-lab</span><span class="tag">embedded</span><span class="tag">hardware</span></div>
+        </div>
+
+        <div class="item" data-status="app">
+          <div class="item-id">LD-01</div>
+          <div class="item-body">
+            <h3>Laundry Cleaner</h3>
+            <p>Dry-cleaning operations on a single board — orders, per-cloth pricing, debt tracking, financial reports and pickup messages.</p>
+          </div>
+          <div class="item-tags"><span class="tag t-green">shipped</span><span class="tag">rust</span><span class="tag">offline-first</span></div>
+        </div>
+
+        <div class="item" data-status="app">
+          <div class="item-id">SB-01</div>
+          <div class="item-body">
+            <h3>SalesBot</h3>
+            <p>A WhatsApp bookkeeping bot for Lagos small businesses — record sales, expenses and debts, get weekly reports by chat.</p>
+          </div>
+          <div class="item-tags"><span class="tag t-green">shipped</span><span class="tag">python</span><span class="tag">whatsapp</span></div>
+        </div>
+
+        <div class="item" data-status="app">
+          <div class="item-id">FR-01</div>
+          <div class="item-body">
+            <h3>Furapp & Furmarket</h3>
+            <p>Sofa showroom inventory with photographed intake-to-sold history, plus a marketplace where customers browse and order over WhatsApp.</p>
+          </div>
+          <div class="item-tags"><span class="tag t-green">live</span><span class="tag">typescript</span><span class="tag">mobile</span></div>
+        </div>
+
+        <div class="item" data-status="app">
+          <div class="item-id">BZ-01</div>
+          <div class="item-body">
+            <h3>Bzos — Godgrace Furniture</h3>
+            <p>Order-to-delivery management for a furniture business — wood type, fabric, production stages, deposits and balances, plus ongoing technology support.</p>
+          </div>
+          <div class="item-tags"><span class="tag t-green">live</span><span class="tag">typescript</span><span class="tag">support</span></div>
+        </div>
+      </div>
+
+      <div class="filter-bar">
+        <span class="filter-label">filter:</span>
+        <button class="chip active" data-filter="all">all</button>
+        <button class="chip" data-filter="protocol">protocol</button>
+        <button class="chip" data-filter="hardware">hardware</button>
+        <button class="chip" data-filter="app">products</button>
+      </div>
+    </section>
+
+    <section id="research" class="section alt">
+      <p class="sec-label">/ methodology</p>
+      <h2>How research becomes product</h2>
+      <div class="steps">
+        <div class="step"><b>01</b><p><strong>Find a real problem.</strong> The boring, repeated, money- or freedom-losing step that runs entire industries.</p></div>
+        <div class="step"><b>02</b><p><strong>Study it on the ground.</strong> We walk the business, the network, the field — we don't guess from a questionnaire.</p></div>
+        <div class="step"><b>03</b><p><strong>Port to the problem.</strong> The stack follows the solution — Rust for systems, TypeScript for interfaces, Python for data, hardware where physics matters, protocols where trust matters.</p></div>
+        <div class="step"><b>04</b><p><strong>Ship and maintain.</strong> Compile it, run it, keep it alive. A lab product that isn't maintained stops working.</p></div>
+      </div>
+    </section>
+
+    <section id="mission" class="section">
+      <p class="sec-label">/ thread</p>
+      <h2>One research thread, many labs</h2>
+      <p class="lede">
+        The lab has one obsession: systems that work where the world actually lives
+        — the counter of a dry cleaner, the inside of a pharmacy shelf, the network
+        layer of a blockchain. There is no house style, no forced stack. Offline-first
+        when the problem has no signal. Protocol work when the problem is trust.
+        Hardware when the problem is physics. Everything is ported to
+        <strong>what the problem and the solution demand</strong>.
+      </p>
+      <p class="lede">
+        That thread runs from a Solana light node on a devnet to a dry cleaner's counter in Lagos.
+        Nigeria has roughly <strong>40 million businesses</strong>; fewer than 5% use modern software.
+        Most run on notebooks, WhatsApp and memory. So half the lab studies how those businesses work, and
+        ships tools for them — offline where there's no signal, cloud where there is, WhatsApp where that's
+        already the workflow. The other half studies infrastructure — networks, operating
+        systems, hardware, protocols — so the tools never depend on a technology we're not willing to build.
+      </p>
+      <p class="lede">
+        Payments, laundries, pharmacies, furniture, gas cylinders, phone books of 41 million people —
+        same question everywhere: <em>what happens from the moment this enters, until money comes out?</em>
+      </p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="sec-label">/ lines open</p>
+      <h2>Open a channel</h2>
+      <p class="lede">
+        Working on a hard problem — or running a business that runs on guesswork?
+        Tell us what happens from the moment an order arrives to the moment money comes out.
+      </p>
+      <div class="contact-cards">
+        <a class="contact-card" href="https://wa.me/2347069991925">
+          <b>WhatsApp</b>
+          <span>0706 999 1925</span>
+        </a>
+        <a class="contact-card" href="mailto:chukwuemekavictor693@gmail.com">
+          <b>Email</b>
+          <span>chukwuemekavictor693@gmail.com</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>PEIRA·LAB — a research laboratory that ships products</span>
+    <span>Rust · TypeScript · Python · Hardware</span>
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
