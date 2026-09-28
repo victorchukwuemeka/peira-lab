@@ -8,7 +8,7 @@ const io = new IntersectionObserver(
 );
 
 document
-  .querySelectorAll(".item, .step, .stat, .contact-card")
+  .querySelectorAll(".item, .step")
   .forEach((el) => {
     el.classList.add("reveal");
     io.observe(el);
@@ -23,8 +23,8 @@ chips.forEach((chip) => {
     chip.classList.add("active");
     const filter = chip.dataset.filter ?? "all";
     items.forEach((item) => {
-      const status = item.dataset.status ?? "";
-      item.classList.toggle("hidden", filter !== "all" && status !== filter);
+      const group = item.dataset.group ?? "";
+      item.classList.toggle("hidden", filter !== "all" && group !== filter);
     });
   });
 });

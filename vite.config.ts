@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/",
+  base: "/peira-lab/",
   build: {
     outDir: "dist",
     emptyOutDir: true,
